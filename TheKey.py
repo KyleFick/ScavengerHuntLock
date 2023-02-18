@@ -27,14 +27,14 @@ def clear():
 clear()
 
 
-print (" Enter the password to Get the Scavenger Hunt Key")
+print (" Enter the password to Get the \n\n\n Scavenger Hunt Key")
 
 password = "Shnukums@Sadie"
 
-passw = input("Enter the Password to reveal the Key!!!")
+passw = input("Enter the Password to reveal the Key!!!\n\n Password: ")
 
 if passw == password:
-    print("You Have Unlocked the Key To Start the Hunt")
+    print("You Have Unlocked the Key To Start the Hunt\n\n")
 
 else:
     print("Please try again")
